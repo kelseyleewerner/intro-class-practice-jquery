@@ -29,6 +29,24 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
+  $("button#option1").click(function() {
+    $("body").removeClass();
+    $("body").addClass("option1");
+  });
+
+  $("button#option2").click(function() {
+    $("body").addClass("option2");
+  });
+
+  $("button#original").click(function() {
+    $("body").removeClass();
+  });
+
+  $("p#test").click(function() {
+    $("p#test").addClass("test2");
+  });
+
+
 
 
 

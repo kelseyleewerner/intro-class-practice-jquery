@@ -5,3 +5,21 @@
 #letter {
   display: none;
 }
+
+.option1 {
+  color: #37e1dd;
+  background-color: #1f146b;
+}
+
+.option2 {
+  color: #b02107;
+  background-color: #d9e515;
+}
+
+.original {
+  color: black;
+}
+
+.test2 {
+  color: orange
+}
